@@ -1,6 +1,6 @@
 {% set theme_name = "primer" %}
 {% set name = '-'.join(['jekyll-theme', theme_name]) %}
-{% set version = "0.5.4" %}
+{% set version = "0.6.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 33c10aa173189e7b0470698b83c667bcc9a4795ef48ebfafb47fe43ad218f730
+  sha256: ce27282798217eb0957ba01ab3bf12996476348b625736fa8448f7a1b8a307b3
 
 build:
   noarch: generic
